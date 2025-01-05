@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(background.jpg);
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(122, 67, 107);
+    padding: 1px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1;
+    letter-spacing: 0.5px;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 20px;
+}
+
+header h1:after{
+    content:"";
+    height: 5px;
+    width: 240px;
+    background-color:white;
+    display: block;
+    margin: auto;
+}
+
+header h2 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 0;
+    letter-spacing: 0.5px;
+    padding-bottom: 10px;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px; 
+    padding-right: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.about-me p {
+    margin-bottom: 20px;
+}
+
+.academic-interests h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.academic-interests p {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+img {
+    height: 300px;
+    width: 225px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+    max-width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(122, 67, 107);
+    transition: color 2s ;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(122, 67, 107);
+    color: white;
+}
+
+.social-links {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.social-links a:hover {
+    color: rgb(195, 172, 189);
+}
