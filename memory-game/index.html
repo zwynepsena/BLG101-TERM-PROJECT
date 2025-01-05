@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="game.js"></script>
+</head>
+
+<body>
+    <div class="game">
+        <div id="score" class="score">Score:  <span id="score-value">0</span></div>
+        <button id="card0" onclick="clicking(0)"><img id="image0" src="cards/letterZ.svg" /></button>
+        <button id="card1" onclick="clicking(1)"><img id="image1" src="cards/letterS.svg" /></button>
+        <button id="card2" onclick="clicking(2)"><img id="image2" src="cards/letterE.svg" /></button>
+        <button id="card3" onclick="clicking(3)"><img id="image3" src="cards/letterN.svg" /></button>
+        <button id="card4" onclick="clicking(4)"><img id="image4" src="cards/letterA.svg" /></button> <br>
+        <button id="restart" class="restart" onclick="start()">Restart</button>
+    </div>
+
+    <nav>
+        <a class="homepage" href="../home-page/index.html">HOME PAGE</a> <br>
+        <a class="gamestartpage" href="../memory-game-rules-page/index.html">GAME RULES PAGE</a>
+    </nav>
+</body>
+
+
